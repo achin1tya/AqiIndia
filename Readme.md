@@ -1,4 +1,4 @@
-This Project uses references from "https://github.com/bbc/vj-code-tests/tree/master/airquality"
+
 
 Using the web application 
 1. Install the /dist file in your machine and open ./dist/index.html in your browser . 
