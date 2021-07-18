@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html  >
+    <div class="bg_image"></div>
+    <head >
+        <title>AQI INDIA</title>
+        
+        <link rel="stylesheet" href="./index.css"/>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body  style="background-image: url('https://news.files.bbci.co.uk/vj/live/idt-images/image-slider-hello/SMOG_vdyw4.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed" ></body>
+        <div class="search-box container ">
+            <div class="container">
+                <form autocomplete="off" class="user_input_active" style="width:30%;"  >
+                    <div class="autocomplete " >
+                        <input id="userInput" type="text" name="state" placeholder="Enter Location..">
+                    </div>
+                    <input type="button" value="Search" id="retrieveCityData" onclick="searchTheAQI()">
+                </form>
+            </div>
+        </div>
+        <div class="main-content " id="toggle" >
+            <div id="aqi_info" style="margin-left: 35%;">
+                    <strong>
+                        <i>AQI </i> 
+                    </strong>
+                    <span>
+                        <strong id="aqi_val">_____</strong>
+                    </span>
+                    <strong>
+                        <i>
+                            Equivalent Cigarettes   
+                        </i>
+                    </strong>
+                    <strong id="cigarette_val">
+                        ______
+                    </strong>
+                    <img src="ciggrette_icon.png" width="20px" height="30px"/>
+            </div>
+
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    <div class="footer">
+        <p><strong><i>Note </i></strong>1 <span><img src="ciggrette_icon.png" width="20px" height="30px"/></span> is equivalent to an air pollution of 22 μg/m3 (Absolute value: 21.6 μg/m3) for one day.</p>
+    </div>
+</html>
